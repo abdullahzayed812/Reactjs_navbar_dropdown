@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+.home,
+.about,
+.services,
+.contact-us,
+.sign-up {
+    width: 100%;
+    height: calc(100vh - 74px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    h1 {
+        font-size: 50px;
+        color: white;
+    }
+}
+.home {
+    background-image: url('../public/images/img-1.jpg');
+}
+.about {
+    background-image: url('../public/images/img-2.jpg');
+}
+.services {
+    background-image: url('../public/images/img-3.jpg');
+}
+.contact-us {
+    background-image: url('../public/images/img-4.jpg');
+}
+.sign-up {
+    background-image: url('../public/images/img-5.jpg');
+}
+
